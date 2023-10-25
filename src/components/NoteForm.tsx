@@ -27,6 +27,7 @@ export default function NoteForm({
     });
     navigate("..");
   };
+
   return (
     <Form onSubmit={handleSubmit}>
       <Stack gap={4}>

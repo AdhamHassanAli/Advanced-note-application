@@ -1,3 +1,8 @@
+export type SimplifiedNote = {
+  tags: Tag[];
+  title: string;
+  id: string;
+};
 export type Note = {
   id: string;
 } & NoteData;
